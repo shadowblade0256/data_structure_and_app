@@ -3,10 +3,10 @@
 #include <iostream> 
 
 
-//ISSUE: must use "signtype::" as prefix (header file corruption?)
+//ISSUE: must use "signType::" as prefix (header file corruption?)
 enum signType {plus,minus};
 
-//New version of class "currency". Currency amounts now stored in single variable
+//Ver 2.0 of class "currency". Currency amounts now stored in single variable
 class currency
 {
     public:
